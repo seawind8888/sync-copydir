@@ -1,5 +1,5 @@
 {
-  "name": "copydir",
+  "name": "node-copydir",
   "version": "1.0.0",
   "description": "a copy module for node",
   "main": "copydir.js",

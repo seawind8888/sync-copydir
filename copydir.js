@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 
 
-async function copydir(f, t) {
+function copydir(f, t) {
     let _f = path.resolve(process.cwd(), f)
     let _t = path.join(process.cwd(), t)
     

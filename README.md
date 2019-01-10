@@ -4,27 +4,27 @@ a async copydir utils for nodejs
 ## Installing
 
 ```
-npm i node-copydir
+npm i sync-copydir
 ```
 or 
 
 ```
-yarn add node-copydir
+yarn add sync-copydir
 ```
 
 ## Usage
 
-`await copydir('path/from', 'path/to')`
+copydir('path/from', 'path/to')`
 
 ## Example
 move all of files from 'aaa' folder to 'bbb' folder
+move 'bbb' folder to 'ccc' folder
 
 ```javascript
-const copydir = require('node-copydir')
+const copydir = require('sync-copydir')
 
-async function copy() {
-    await copydir('./aaa', './bbb')
-}
+copydir('./aaa', './bbb')
+copydir('./bbb', './ccc')
 
 
 ```

@@ -1,4 +1,4 @@
-# node-copydir
+# sync-copydir
 a async copydir utils for nodejs
 
 ## Installing

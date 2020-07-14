@@ -1,6 +1,6 @@
 {
   "name": "sync-copydir",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a copy module for node",
   "main": "copydir.js",
   "scripts": {

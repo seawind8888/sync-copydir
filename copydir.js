@@ -2,10 +2,12 @@ const fs = require('fs')
 const path = require('path')
 
 
-function copydir(f, t) {
-    let _f = path.resolve(process.cwd(), f)
-    let _t = path.join(process.cwd(), t)
-    
+function copydir(f, t, c = {}) {
+    let _f = f, _t = t
+    if(c.relative) {
+        let _f = path.resolve(process.cwd(), f)
+        let _t = path.join(process.cwd(), t)
+    }
     _copydir(_f, _t);
 }
 
